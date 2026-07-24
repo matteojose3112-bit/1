@@ -1,147 +1,112 @@
 # RevPulse — Revenue Operations Command Center
 
+## Live Demo
+
+🚀 https://matteojose3112-bit.github.io/revpulse-revenue-operations-dashboard/
+
+---
+
 ## Overview
 
 RevPulse is a Revenue Operations analytics dashboard designed to simulate a SaaS company's revenue intelligence platform.
 
-The dashboard combines sales pipeline, revenue performance, customer lifecycle, and opportunity management into a centralized operational reporting system.
+The dashboard combines sales pipeline, revenue performance, customer lifecycle analytics, and opportunity management into one centralized operational reporting system.
 
 ---
 
-## Features
+## Key Features
 
-- Dynamic revenue data loading
-- Executive KPI dashboard
-- ARR tracking
-- Pipeline analysis
-- Revenue growth trends
-- Sales team performance
-- Customer lifecycle analytics
-- Opportunity management table
-- Company search
-- Pipeline stage filtering
-- CSV reporting export
-- Responsive design
+✅ Dynamic revenue data loading
+✅ Executive KPI dashboard
+✅ ARR tracking
+✅ Pipeline analytics
+✅ Revenue growth trends
+✅ Sales performance reporting
+✅ Customer lifecycle monitoring
+✅ Opportunity management table
+✅ Company search
+✅ Pipeline stage filtering
+✅ CSV reporting export
+✅ Responsive design
 
 ---
 
 ## Dashboard Metrics
 
-RevPulse tracks:
-
 ### Revenue Metrics
 
-- Annual Recurring Revenue (ARR)
-- Pipeline Value
-- Win Rate
-- Churn Rate
+* Annual Recurring Revenue (ARR)
+* Pipeline value
+* Win rate
+* Churn rate
 
+### Sales Operations Metrics
 
-### Sales Metrics
+* Pipeline stages
+* Opportunity value
+* Sales representative performance
+* Revenue contribution
 
-- Pipeline Stages
-- Opportunity Value
-- Sales Representative Performance
-- Revenue Contribution
+### Customer Lifecycle Metrics
 
-
-### Customer Metrics
-
-- New Customers
-- Active Customers
-- Expansion Accounts
-- At-Risk Customers
-- Churned Customers
+* New customers
+* Active customers
+* Expansion accounts
+* At-risk customers
+* Churned customers
 
 ---
 
-## Technologies Used
+## Technology Stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Chart.js
-- JSON Data
+* HTML5
+* CSS3
+* JavaScript
+* Chart.js
+* JSON Data
 
 ---
 
-## Business Concepts Demonstrated
+## Business Skills Demonstrated
 
 This project demonstrates:
 
-- Revenue Operations
-- CRM Analytics
-- Sales Operations
-- Customer Lifecycle Management
-- Pipeline Forecasting
-- Revenue Reporting
-- Business Intelligence
+* Revenue Operations
+* CRM Analytics
+* Sales Operations
+* Customer Lifecycle Management
+* Pipeline Forecasting
+* Revenue Reporting
+* Business Intelligence
 
 ---
 
-## Data Architecture
+## Portfolio Position
 
-The project separates:
+RevPulse represents the connection between CRM, Sales Operations, and Customer Success workflows.
 
-```
-Frontend
-|
-|-- HTML
-|-- CSS
-|-- JavaScript
+It demonstrates the ability to analyze the complete revenue lifecycle:
 
-Data Layer
-|
-|-- JSON CRM Dataset
-```
-
-This mirrors how modern business dashboards consume structured operational data.
+**Lead → Opportunity → Customer → Expansion → Retention**
 
 ---
 
-## Screenshots
+## Relevant Roles
 
-_Add dashboard screenshots here._
+This project supports applications for:
 
-Example:
-
-```
-/screenshots/revpulse-dashboard.png
-```
-
----
-
-## How To Run
-
-1. Clone repository
-
-```
-git clone YOUR_REPOSITORY_URL
-```
-
-2. Open:
-
-```
-index.html
-```
-
----
-
-## Career Relevance
-
-Built to demonstrate capabilities for:
-
-- Revenue Operations Analyst
-- Sales Operations Analyst
-- CRM Administrator
-- Business Operations Analyst
-- Customer Success Operations Analyst
+* Revenue Operations Analyst
+* Sales Operations Analyst
+* CRM Administrator
+* Business Operations Analyst
+* Customer Success Operations Analyst
 
 ---
 
 ## Author
 
-Matteo Jose
+**Matteo Jose**
 
-Revenue Operations Professional  
+Revenue Operations Professional
 CRM Operations | Sales Operations | Customer Success Operations
+
