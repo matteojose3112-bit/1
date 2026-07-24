@@ -1,0 +1,143 @@
+{
+  "kpis": {
+    "arr": 1200000,
+    "pipeline": 450000,
+    "winRate": 32,
+    "churn": 4.5
+  },
+
+
+  "pipeline": [
+    {
+      "stage": "Lead",
+      "value": 900000
+    },
+    {
+      "stage": "Qualified",
+      "value": 700000
+    },
+    {
+      "stage": "Proposal",
+      "value": 500000
+    },
+    {
+      "stage": "Negotiation",
+      "value": 300000
+    },
+    {
+      "stage": "Closed Won",
+      "value": 200000
+    }
+  ],
+
+
+  "revenueGrowth": [
+    {
+      "month": "January",
+      "revenue": 80000
+    },
+    {
+      "month": "February",
+      "revenue": 95000
+    },
+    {
+      "month": "March",
+      "revenue": 110000
+    },
+    {
+      "month": "April",
+      "revenue": 130000
+    },
+    {
+      "month": "May",
+      "revenue": 150000
+    },
+    {
+      "month": "June",
+      "revenue": 175000
+    }
+  ],
+
+
+  "salesTeam": [
+    {
+      "name": "Alex",
+      "revenue": 220000
+    },
+    {
+      "name": "Maria",
+      "revenue": 180000
+    },
+    {
+      "name": "James",
+      "revenue": 140000
+    },
+    {
+      "name": "Sofia",
+      "revenue": 120000
+    }
+  ],
+
+
+  "customers": [
+    {
+      "status": "New Customers",
+      "count": 45
+    },
+    {
+      "status": "Active Customers",
+      "count": 320
+    },
+    {
+      "status": "Expansion",
+      "count": 65
+    },
+    {
+      "status": "At Risk",
+      "count": 18
+    },
+    {
+      "status": "Churned",
+      "count": 9
+    }
+  ],
+
+
+  "opportunities": [
+    {
+      "company": "Acme SaaS",
+      "stage": "Proposal",
+      "value": 50000,
+      "owner": "Alex",
+      "probability": 60
+    },
+    {
+      "company": "NovaTech",
+      "stage": "Negotiation",
+      "value": 80000,
+      "owner": "Maria",
+      "probability": 75
+    },
+    {
+      "company": "CloudFlow",
+      "stage": "Closed Won",
+      "value": 120000,
+      "owner": "James",
+      "probability": 100
+    },
+    {
+      "company": "BrightDesk",
+      "stage": "Qualified",
+      "value": 35000,
+      "owner": "Sofia",
+      "probability": 40
+    },
+    {
+      "company": "Vertex AI",
+      "stage": "Lead",
+      "value": 25000,
+      "owner": "Alex",
+      "probability": 20
+    }
+  ]
+}
