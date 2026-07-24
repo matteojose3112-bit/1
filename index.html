@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RevPulse | Revenue Operations Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Icons -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<body>
+
+
+<header class="topbar">
+
+    <div class="brand">
+        <i class="fa-solid fa-chart-line"></i>
+        <h1>RevPulse</h1>
+    </div>
+
+    <p>
+        Revenue Operations Command Center
+    </p>
+
+</header>
+
+
+
+<main class="dashboard">
+
+
+<!-- KPI SECTION -->
+
+<section class="kpi-grid">
+
+
+<div class="card">
+    <h3>ARR</h3>
+    <h2 id="arr">$0</h2>
+    <span>Annual Recurring Revenue</span>
+</div>
+
+
+<div class="card">
+    <h3>Pipeline</h3>
+    <h2 id="pipeline">$0</h2>
+    <span>Open Opportunities</span>
+</div>
+
+
+<div class="card">
+    <h3>Win Rate</h3>
+    <h2 id="winRate">0%</h2>
+    <span>Sales Conversion</span>
+</div>
+
+
+<div class="card">
+    <h3>Churn</h3>
+    <h2 id="churn">0%</h2>
+    <span>Customer Loss</span>
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- CHART SECTION -->
+
+<section class="charts">
+
+
+<div class="chart-card">
+
+<h3>
+Revenue Pipeline
+</h3>
+
+<canvas id="pipelineChart"></canvas>
+
+</div>
+
+
+
+<div class="chart-card">
+
+<h3>
+Revenue Growth
+</h3>
+
+<canvas id="revenueChart"></canvas>
+
+</div>
+
+
+
+<div class="chart-card">
+
+<h3>
+Sales Performance
+</h3>
+
+<canvas id="salesChart"></canvas>
+
+</div>
+
+
+
+<div class="chart-card">
+
+<h3>
+Customer Lifecycle
+</h3>
+
+<canvas id="customerChart"></canvas>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- TABLE SECTION -->
+
+
+<section class="table-section">
+
+
+<div class="table-header">
+
+<h2>
+Opportunity Pipeline
+</h2>
+
+
+<div class="controls">
+
+
+<input 
+type="text" 
+id="searchInput" 
+placeholder="Search company..."
+>
+
+
+<select id="stageFilter">
+
+<option value="all">
+All Stages
+</option>
+
+<option value="Lead">
+Lead
+</option>
+
+<option value="Qualified">
+Qualified
+</option>
+
+<option value="Proposal">
+Proposal
+</option>
+
+<option value="Negotiation">
+Negotiation
+</option>
+
+<option value="Closed Won">
+Closed Won
+</option>
+
+</select>
+
+
+<button id="exportBtn">
+
+<i class="fa-solid fa-download"></i>
+Export CSV
+
+</button>
+
+
+</div>
+
+</div>
+
+
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>
+Company
+</th>
+
+<th>
+Stage
+</th>
+
+<th>
+Value
+</th>
+
+<th>
+Owner
+</th>
+
+<th>
+Probability
+</th>
+
+
+</tr>
+
+</thead>
+
+
+<tbody id="opportunityTable">
+
+
+</tbody>
+
+
+</table>
+
+
+</section>
+
+
+<tbody id="opportunityTable">
+
+
+</tbody>
+
+
+</table>
+
+
+</section>
+
+
+
+</main>
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
